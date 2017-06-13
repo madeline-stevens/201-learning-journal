@@ -9,3 +9,8 @@ I will definitely have more to next time
 # Learning Journal: Day 4 (June 9, 2017)
 
 I'd really like to be doing more code review. More white boarding. Focus more on the readings. I need to be getting more sleep. I've been staying on campus until I finish all my work, so I'm here until 8:30pm or 9pm which I prefer. I asked my friends in 401 how to best prepare for week 2 of 201 and they just keep saying that we will have an impossible amount of work and we will be doing things we are very unfamiliar with "but the sooner we can just accept that and be okay with that the better." Basically, do our best, while getting enough sleep, and we'll be fine.
+
+# Learning Journal: Day 6 (June 12, 2017)
+
+Dear diary,
+Today was the start of week 2. Hawa helped Esther and I work through object literals, then we got to explain what we did to Zach and Chai. We would break away and keep working, then team Zach and Chai would come over to us excited to show us what they learned. Aren't we adorable? Esther graduates from UW's Public Health program tomorrow! Go Esther! I've already told her I'll recap day 7 to her on Wednesday.
