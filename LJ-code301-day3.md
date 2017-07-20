@@ -1,4 +1,4 @@
-# 301 Learning Journal: day 3 (July 12, 2017)
+# 301 Learning Journal: day 3 (July 12, 2017) (LJ-code301-day3.md)
 
 Thank you so much, Scott, for being okay with student pairs for code review. I was able to ask Katherine for feedback on how I was understanding and explaining my code. I think it's a great way to ease into doing it as a class and having you correct us.
 
