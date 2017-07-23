@@ -141,9 +141,9 @@ Wednesday:
     - type psql (in terminal) if it doesn't work...type brew services start postgres. or just pgstart??
 
 CRUD:
-create- post?
+create- post
 read- get
-update- put?
+update- put
 destroy- delete
 
 
@@ -154,7 +154,60 @@ post
 delete
 
 - SELECT * FROM table (select all columns from the table)
-- to update: usually you'll do a get request and then update that indivual id
+- to update: usually you'll do a get request and then update that individual id
 
 promise
   -deferred object...
+
+thursday:
+
+- npm init -y (shortcut to fill out the dependencies form)
+- npm install -S express body-parser pg (including the packages)
+- html, body, h2, "hello world"
+
+- start allows us to set up aliases that allow us to run scripts that can
+
+- npm -g ls -- depth=0....?? - lists all npm packages that are installed
+
+- difference between bodyparser.json and urlencoded...
+- object.keys(obj).forEAch (function(prop)) is the same as ['first_name', 'last_name', ...].forEAch
+
+1:1
+- fk- foreign key or a reference to the first table 1,2,3
+
+1 to Many
+- many products can belong to many orders...
+-
+junction table- ties everything together, ties orders together
+
+** if you add a new field, a new column to your database, must account for previous people and add a blank field to their cells.
+
+- SELECT author_id $1...sub query ...
+
+Friday:
+
+- thurs lab... Normally there would be one big query not all these sub queries
+1.
+2.
+3. get all the articles
+
+  - queryTwo() { //now that everythign has been packaged we need to call a second query to get it back from the DB?
+      client.query(
+
+        `SELECT author_id FROM authors WHERE author=$1`
+        )
+  }
+
+  app.put--low level ajax request with a method of put
+
+1. FUNCTIONAL PROGRAMMING: aka declarative programming
+- imperative approach (step by step...) functional is NOT so step by step. IT will feel like black magic...
+- .forEeach, .filter, .map, .reduce
+- 2. mutability
+- immutability- value should stay static
+- 3. pure function- takes in values, copies them, and returns a new values without affecting the global value  
+
+- arrow functions
+
+
+***** in 401 we'll only be using these four (.forEeach, .filter, .map, .reduce) and not using for loops at all*****
