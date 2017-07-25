@@ -211,3 +211,32 @@ Friday:
 
 
 ***** in 401 we'll only be using these four (.forEeach, .filter, .map, .reduce) and not using for loops at all*****
+
+Monday, july 24:
+- single page apps
+- client side routing(review server side routing)
+- pageJS demo
+
+- parameterized routes!!!! passing state between these call backs
+
+todo: refactor....have the pound take advantage of the routes
+todo: link up all your scripts and make sure they're in the right order
+
+controllers directorsy
+todo: the routes file...
+all the views (similar to all the pages we did in demo)
+todo: articleView.js
+that first line... and then to call (put (app) at hte bottom)
+when that fiel is read if there is an exiiting file to app , if t comes back treu , assign that thing to the app, if there is no value assigned to app, give it an empty object. that way when we pass app in down at the bottom . similar to teh find port or just use defualt 3000.
+
+todo: aboutcontroller
+mimics waht we did in lab
+
+todo: articlecontorller
+the show/hides
+
+todo: articleView
+once hte orutes are handling  ...th e whole handle main nav gets deleted
+we don't need those event listneres anymore which also means we dont need to call it down at the bottom of hte page
+
+module.adminView= adminView;// laod up all fo the content in that js file, we dump in all in teh global scope. module is a parameter. it really means pass it off to that app object. app becomes new entry point for that instance.
