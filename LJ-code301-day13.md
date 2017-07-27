@@ -9,4 +9,4 @@ These are some things we learned today:
 
 - To see your app in deployment environment type in terminal- git push heroku master
 
-- You can make that conString work for both local and heroku site changes. To do this type in terminal- export database_url = " # "
+- You can make that conString work for both local and heroku site changes. To do this type- export database_url = " # " somewhere...not sure where exactly...?
