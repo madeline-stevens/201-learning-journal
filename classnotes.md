@@ -225,6 +225,7 @@ todo: link up all your scripts and make sure they're in the right order
 controllers directorsy
 todo: the routes file...
 all the views (similar to all the pages we did in demo)
+
 todo: articleView.js
 that first line... and then to call (put (app) at hte bottom)
 when that fiel is read if there is an exiiting file to app , if t comes back treu , assign that thing to the app, if there is no value assigned to app, give it an empty object. that way when we pass app in down at the bottom . similar to teh find port or just use defualt 3000.
@@ -240,3 +241,125 @@ once hte orutes are handling  ...th e whole handle main nav gets deleted
 we don't need those event listneres anymore which also means we dont need to call it down at the bottom of hte page
 
 module.adminView= adminView;// laod up all fo the content in that js file, we dump in all in teh global scope. module is a parameter. it really means pass it off to that app object. app becomes new entry point for that instance.
+
+Tuesday, 7/25:
+
+- ReSTful APIs
+- Postman
+- github API tokens
+- IIFE ..."file scoped behavior"
+
+310 tip:
+mock data
+to figure out how to define your routes to the server
+what do i send? what do i get back?
+
+
+
+- no open communication
+- verbs (get, post, put, delete) and nouns ( /author/:authorID/articles...) app.get('/articles/delete', cb)
+
+- github api token
+  - settings> access token on left side> generate token
+
+- in chrome console, at api.jquery.com just becuase it has jquery
+  - $.ajax({
+      url:
+      api.gihub.com',
+        method: 'GET',
+        headers: {
+            authoriziation:'token pasteTokeHere'//my copied api token from my github.
+        }
+    })
+    .then(data => console.log, console.error)
+
+    1. get token, copy it
+    2. create an ajax request in the app.js file and link in the token with ${GITHUB_TOKEN}
+
+
+todo:
+
+new js files, repo.js and
+repos.requestRepos = funciton
+handling the ajax requests to teh gihhub api;
+
+repose.with  = attr...
+a helper methiod that we'll talk about tomorrow.
+filters your repos based on a specified property.
+
+repoView.js
+rendering repos to the about me page.
+private method declared.
+const ui = function (){ }
+when you do a jquery selector, and it returns a jquery object for you. cache it in a variable and then use the variable. that saves you from having to make that selection multiple times.
+
+todo:
+save teh resulet in this render variable
+new id-- id ="repo-template" from index.html that we'll save in the result variable....
+CREATE A GITHUBTOKEN.JS FILE AND STORE YOUR GITHUB TOKEN IN IT BUT IGNORE IT!!!!!!!
+
+get data from github api and render some of that data on that about me page of the blog.
+
+Wednesday, 7/26:
+deployment with Heroku!!!
+
+- open source projects...git hub list of projects..for beginners
+- follow same process but git pull ..upstream..origin master...??
+
+- fixing git shows...
+
+  - fix merge conflict locally, then you'll have a clean branch to merge with master.  
+  - Compare on github.com by deleting unwanted stuff and deleting the flags
+- rebase- merging branches. shouldn't use this, should sitll always use merge.
+
+- gulp- a build tool..that we don't need anymore. we have npm to do that for us.
+
+code review!!!!!!!!! lab 12
+- use moment library to make pretty dates for your repo projects
+
+deployment!!!
+- ghpages helps to create a static site (no backend)
+-
+type heroku login in terminal
+add posgres as an add-on
+
+
+process.env (environment variables)- this is where we protect and store those github tokens.
+how to set a variable in terminal...
+
+-- in terminal:
+env
+export PORT = 4000 (to set to 4000)
+export GITHUB_TOKEN ...paste your token
+
+but...we need persistence because..
+
+-- to have persistence...
+shell config file within atom:
+export GITHUB_TOKEN= '..paste token here'
+
+we're trying to eliminate hte token being client side
+
+2:44
+express-request-proxy (ajax request for the server)
+on the docs we see examles of client code and server code
+
+requestProxy becomes like middleware, then it gets passed into our callback function
+
+server side ajax request (data that attaches to the authorization send back...):
+let requestProxy = expressRequestProxy ({
+
+  })
+
+app.get('/github'), requestProxy, (req, res)=>
+
+consoel.log (req)
+
+3:10
+heroku master automatically starts up node
+then type heroku open in terminal to open in browser.
+
+to see app in deployment environment- git push heroku master
+
+you can make that constring work for both local and heroku site changes...you set this in heroku.com
+type in terminal: export database_url = " # "

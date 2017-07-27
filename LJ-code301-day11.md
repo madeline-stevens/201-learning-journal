@@ -16,7 +16,7 @@ read- get
 update- put
 destroy- delete
 
-Today, we learned revisited the MVC. And in our lab we learned how to change routes in a url for a static page that's using ajax requests to show and hide different content. This is what I wrote in my reading response: 
+Today, we learned revisited the MVC. And in our lab we learned how to change routes in a url for a static page that's using ajax requests to show and hide different content. This is what I wrote in my reading response:
 
 1. Model: A structure of objects. (Example: a database or html.)
 
