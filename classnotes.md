@@ -363,3 +363,33 @@ to see app in deployment environment- git push heroku master
 
 you can make that constring work for both local and heroku site changes...you set this in heroku.com
 type in terminal: export database_url = " # "
+
+Thursday, 7/27:
+1. middleware review
+2. PageJS context object
+3. lab preview
+
+
+for 401- continuous deployment- deploy from github to heroku.
+401- writing our own bodyparser
+* heroku create
+* set up any envs. a github env and a    to be able to make changes...
+* postgres
+* git push heroku master
+
+middelware:
+- post request- package up a send a post request of a name, age object. but in order to get this object to the server, we need  middelware, or a body parser. (post('/user', bodyparser)) packets of info are handed to body parser. after the packet is parsed by body parser, its then handed to req and res within the (function (req, res))
+    - comes into the server as a buffer, how we handle hte stream of data
+
+  client.query is an example of middleware.
+
+  project: 401 status, mobile first, tab icon,
+
+  PLAN OF ACTION FOR if you're going to resubmit!!!! slack scott  
+
+  lab:
+  review proxy code, proxyGithub, this is another form of middleware
+  look up DISTINCT
+  arricleView-
+  regEx-
+  Article.js- function definitions, go find where they're called. (findWhere and allCategories )
