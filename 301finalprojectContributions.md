@@ -7,8 +7,6 @@ What contributions did you personally make? Please describe all of your contribu
 - Zach did a lot of the google maps api and google fusion tables work to get the green county shapes overlay. But he wanted me to help him with placing the facility pins. We worked on the google directions matrix api for the majority of Thursday, seeking help from TA Scott and Christina. Our goal was to have the user input their zip code, hit the submit button and the user would get the distance to all 12 VA facilities. Then we would work on narrowing it down to the three closest facilities. We watched youtube tutorials and came across code pen examples, but it will take more work. Teacher Scott helped us just hours before presentation time and we did get our zip code to take and show up in the chrome console but we needed more time to figure out how to get the distances.
 - Being the one to ask for assistance from the TAs. Thank you, TAs.
 
-
-
 2. Code Contributions
 Provide a link to your project's commit graph (or equivalent) for anything else you'd like to highlight (e.g., features, README.md, automated tests, test documents, tasks described in GitHub issues, etc).
 
