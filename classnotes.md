@@ -377,7 +377,7 @@ for 401- continuous deployment- deploy from github to heroku.
 * postgres
 * git push heroku master
 
-middelware:
+middleware:
 - post request- package up a send a post request of a name, age object. but in order to get this object to the server, we need  middelware, or a body parser. (post('/user', bodyparser)) packets of info are handed to body parser. after the packet is parsed by body parser, its then handed to req and res within the (function (req, res))
     - comes into the server as a buffer, how we handle hte stream of data
 
