@@ -26,3 +26,9 @@ Code Fellows graduate
 4. Brianna Burrows
 Central Washington University CS major
 5. Liuyishui (github username)
+
+- Our project: A web app called Sage. It is a tool that helps women in tech who are interested in becoming mentors get partnered up with other women who are in need of a mentor(s).
+
+- I will continue to work on Sage with my teammates which I am thrilled about.
+
+- Also, Ivette, a dear friend from a different Code Fellows class, asked me if I would like to be part of their Power Hour app that helps connect women in tech to schools, groups, camps to conduct hour of code workshops.
