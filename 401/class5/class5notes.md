@@ -116,10 +116,9 @@ The next few weeks:
 
 *** object.create and object.assign**** look up to understand inheritance....
 
-5. big O reading
+
 1. bitmap group lab
-2. white board challenge response to a few Qs in canvas
-3. wireframe individual
+3. wireframe individual in codepen
 4. data structure lab
   - incorporate white board challenge stuff .filter and .slice
   - testing functions
