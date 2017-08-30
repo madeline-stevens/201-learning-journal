@@ -29,7 +29,7 @@ server.on('connection', socket =>) //see the net docs. When i go to my terminal 
   pool.forEach(c => c.socket.write(`${client.nick} has joined the chanel\n`))//anytime you change....something..? nodemon will be listeing for that but you will have to start, in your other terminal tab, again by typing-- nc localhost 3000.
   // the \n bumps your curson in terminal down to the next line automatically
 
-  socket.on('data', data => { //what should happen when a socket recieves data//should see buffer in 1st terminal. to decode the buffer use .toString. type hello in 2nd terminal. now we'll see the word 'hello'!!!! dont forget to do socket.on.error and socket.on.close!!! 
+  socket.on('data', data => { //what should happen when a socket recieves data//should see buffer in 1st terminal. to decode the buffer use .toString. type hello in 2nd terminal. now we'll see the word 'hello'!!!! dont forget to do socket.on.error and socket.on.close!!!
   let cmd = data.toString().split(' ').shift().trim()//shift grabs the thing from the beginning of the array, trim gets rid of any line returns or whatever. Just validating that the user sent something and if so then will print to the person(s)
   console.log(cmd);
   if(cmd === '@all') { //if the message is to everyone
@@ -47,4 +47,4 @@ server.on('connection', socket =>) //see the net docs. When i go to my terminal 
 
 
 
-server.listen(3000, ()=> console.log('listeing on port 3000')) //run in terminal: node server.js (this is the domino flick)
+server.listen(3000, ()=> console.log('listening on port 3000')) //run in terminal: node server.js (this is the domino flick)
