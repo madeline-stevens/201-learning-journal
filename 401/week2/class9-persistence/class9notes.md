@@ -2,7 +2,7 @@ to do:
 
 - persistence- file system storage
 - DRY out repetitive code- where to repeat?
-- Testing: mocking data with faker (faker will generate random data, so you don't have to rely on testing one single piece of data)
+- Testing: mocking data with faker (faker will generate random data, so you don't have to rely on testing a single piece of data)
 -
 
 weeks to come:
@@ -30,7 +30,7 @@ In terminal
 
 
 in termianl to copy
- cp -rfile to copy  space dir tocopy to
+ cp -r file to copy  space dir tocopy to
  should see copying
  ls
  tree view
