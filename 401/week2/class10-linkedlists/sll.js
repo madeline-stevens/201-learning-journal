@@ -19,7 +19,7 @@ append(val) {
   }
 
   _findLastNode(this.head)//helper method
-  lastNode.next = node
+  lastNode.next = nodes
   return
 
   function _findLastNode(node){//recursive function, passing node.next into these parens until it finds SOME INDICATOR... aka- once it finds the last node it will go back up into the above helper method and actually return it. THEN back up into the append function....
