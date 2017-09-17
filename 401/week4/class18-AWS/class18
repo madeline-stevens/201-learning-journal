@@ -1,0 +1,12 @@
+class 18
+
+1. data structures coe demo
+2. AWS s3
+3. CI- TravisCI (yamal file- YML file format) being added to our project
+4. code demo- hook up a new resource using S3 as file storage.
+5. whiteboarding challenge for 30 min time-boxed limit
+
+new packages:
+aws-sdk -
+del - creates binary representation of an image, del deletes that stuff after hte image is in allows
+multer- have a form where we can upload an image and it's giong to get sent as form data not raw json cause we can't translate a raw image as raw json we have to send it as ....breaks it down . its middleware. uses binary data to upload to s3 then deletes that binary. 
