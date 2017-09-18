@@ -2,7 +2,7 @@
 
 
 ### test 1
-![Alt](/Users/maddys87/codefellows/401/learning-journal/401/week5ProjectWeek/401-midtermFlowChart.pdf)
+![Alt](401/week5ProjectWeek/401-midtermFlowChart.001.png)
 
 ### test 2
 
