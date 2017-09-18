@@ -1,7 +1,9 @@
+
+
+
+### test 1
 ![Alt](/Users/maddys87/codefellows/401/learning-journal/401/week5ProjectWeek/401-midtermFlowChart.pdf)
 
+### test 2
 
-
-\begin{center} <br>
-\includegraphics[width=8in]{myFirstAlignment2.pdf} <br>
-\end{center}
+![Model View Controller](/Users/maddys87/codefellows/401/learning-journal/401/week5ProjectWeek/401-midtermFlowChart.pdf)
