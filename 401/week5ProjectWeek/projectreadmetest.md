@@ -5,6 +5,11 @@
 ![Alt](/401/week5ProjectWeek/401-midtermFlowChart.001.png)
 
 
+* [Isaiah Walker](https://github.com/Lonewalker72)
+* [Madeline Stevens](https://github.com/madhubs)
+* [Gavin Thomas](https://github.com/GavinThomas1192)
+
+
 POST localhost:9000/api/signUp
 
 ```
