@@ -9,6 +9,7 @@
 * [Madeline Stevens](https://github.com/madhubs)
 * [Gavin Thomas](https://github.com/GavinThomas1192)
 
+      "_category"
 
 POST localhost:9000/api/signUp
 
