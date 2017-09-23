@@ -1,7 +1,4 @@
 
-
-### testing
-
       {
               "name": "Facebook",
               "url": "https://developers.facebook.com/docs/",
@@ -9,11 +6,11 @@
               "examplesOfUse": "College-roomeis lets you search for other students looking for a roommate at your school.",
               "examplesInUse": "http://www.college-roomies.com/, http://www.votetronics.com/vote/, http://www-dev.ibiblio.org/fred/stuff/yts/, http://developers.facebook.com/toolbar/",
               "rating": "Awesome",
-              "tokenRequired": True,
+              "tokenRequired": "True",
               "tokenAccessWaitTime": "upon application review",
-              "maxReqMin": "",
-              "numUsersFav": "",
-              "_category": "social_"
+              "maxReqMin": "4800 per day",
+              "numUsersFav": "0",
+              "_category": "social"
           }
 
 
@@ -24,11 +21,11 @@
               "examplesOfUse": "Truthy uses twitter streaming API to understand how communication spreads on Twitter, ",
               "examplesInUse": "http://truthy.indiana.edu",
               "rating": "Awesome",
-              "tokenRequired": ,
-              "tokenAccessWaitTime": "upon application review",
-              "maxReqMin": "4800 per day",
-              "numUsersFav": "",
-              "_category": "social_"
+              "tokenRequired": "True",
+              "tokenAccessWaitTime": "Must obtain an OAuth access token on behalf of a Twitter user",
+              "maxReqMin": "15 calls every 15 minutes",
+              "numUsersFav": "0",
+              "_category": "social"
           }
 
 
@@ -39,13 +36,9 @@
               "examplesOfUse": "Lyft uses the google maps API to connect drivers to riders, Allstate uses the google maps API to estimate insurance costs, Airbnb also uses google maps",
               "examplesInUse": "",
               "rating": "Awesome",
-              "tokenRequired": ,
-              "tokenAccessWaitTime": "upon application review",
-              "maxReqMin": "",
-              "numUsersFav": "",
-              "_category": ""
+              "tokenRequired": "True",
+              "tokenAccessWaitTime": "",
+              "maxReqMin": "1,000,000,000 quota units per day",
+              "numUsersFav": "0",
+              "_category": "educational"
           }
-
-
-
-        
