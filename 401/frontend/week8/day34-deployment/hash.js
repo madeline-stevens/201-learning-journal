@@ -8,7 +8,7 @@ class HashTable {
     return key.split('').reduce((a, b)=> a + b.charCode(0), 0) % this.size //converting to ascii and adding them to together
   }
 
-  set(key, value) {
+  set(key, value) { //key is the key at array[i]
     //note: this does not handle collisions.
     this.memory[this.hashKey(key)] = value
 
