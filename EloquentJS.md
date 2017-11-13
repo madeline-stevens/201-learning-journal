@@ -1,3 +1,6 @@
+Read Ch. 1-5
+Question and an observation 
+
 Ch. 3- Functions--
 The Call Stack
 
