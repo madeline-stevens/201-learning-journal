@@ -22,8 +22,8 @@ lecture:
 - when pc users are running postgres they're opening a completely separate postgres shell, where mac and linux users are running a postgres shell within terminal.
 -
 
-- making a js constructor function to model your porject data with foru or five properties
-- SMACSS- scalable, modular architecutre for css building in pieces, serperatino of concerns , , least specific to most specific.
+- making a js constructor function to model your project data with four or five properties
+- SMACSS- scalable, modular architecture for css building in pieces, separation of concerns , , least specific to most specific.
   - base
   - layout
   - module- ul, parts that you have in the footer
