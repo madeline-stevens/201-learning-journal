@@ -1,0 +1,108 @@
+div  {
+ border: 1px solid black;
+}
+
+/* 1. Header Section -------------- */
+#header {
+ border: 1px solid black;
+ display: flex;
+ justify-content: space-between;
+ height: 7em;
+ width: 100em;
+ background-color: lightgreen;
+}
+
+/* 2. body Section -----------------*/
+
+.body {
+ width: 100em;
+ border: 1px solid black;
+ display: fix;
+}
+
+#left-body {
+ border: 1px solid black;
+ float: left;
+ height: 40em;
+ width: 33.2em;
+ background-color: darkblue;
+}
+
+
+#right-body {
+ border: 1px solid black;
+ height: 40em;
+ width: 33.2em;
+ background-color: pink;
+ display: inline-block;
+}
+
+
+/* 4. aside Section -----------------*/
+
+/* .right-aside {
+ float: right;
+ border: 3px solid black;
+ height: 20em;
+ float: right;
+
+} */
+
+#aside1 {
+ float: right;
+ background-color: yellow;
+ height: 15em;
+ width: 33em;
+ z-index: -1;
+}
+
+#aside2 {
+ background-color: orange;
+ height: 10em;
+ width: 31em;
+
+}
+
+ #aside3 {
+   border: 3px solid black;
+ float: right;
+ background-color: darkgreen;
+ height: 10em;
+ z-index: 2;
+}
+
+
+
+/* 5. Footer Section -----------------*/
+
+footer {
+ display: flex;
+ width: 100em;
+}
+
+.foot1 {
+ border: 1px solid black;
+ display:inline-block;
+ background-color: lightblue;
+ float: left;
+ height: 5em;
+ width: 33.2em;
+}
+
+.foot2 {
+ border: 1px solid black;
+ display:inline-block;
+ background-color: lightblue;
+ float: left;
+ height: 5em;
+ width: 33.2em;
+}
+
+.foot3 {
+ border: 1px solid black;
+ display: inline-block;
+ background-color: darkblue;
+ float: left;
+ height: 5em;
+ width: 33.2em;
+}
