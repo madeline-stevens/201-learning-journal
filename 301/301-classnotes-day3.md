@@ -17,7 +17,7 @@ Week 2
 
 Monday:
 - json- stringify to then be able to store in local data, now that we're working with servers its to ...
-primitive data types (key/value pairs, or arrays of key/value paris; including objets and arrays), we don't get methods. we can write html that interacts with a backend that's written in java, ruby, etc. the code is parsed into something like python on the server side application, create a response or data, then reverse that whole process to reparse it back into javascript and send it back to the front end.
+primitive data types (key/value pairs, or arrays of key/value pairs; including objets and arrays), we don't get methods. we can write html that interacts with a backend that's written in java, ruby, etc. the code is parsed into something like python on the server side application, create a response or data, then reverse that whole process to reparse it back into javascript and send it back to the front end.
 
 ajax
  jquery.ajax(url [,settings])

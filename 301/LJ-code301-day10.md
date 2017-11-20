@@ -2,8 +2,10 @@
 
 We learned many things on friday, but this list of three was the big take away.
 
-1. FUNCTIONAL PROGRAMMING: aka declarative programming
-- Imperative approach (step by step...) functional is NOT so step by step. It will feel like black magic...
+1. FUNCTIONAL programming: aka declarative programming
+- Imperative approach (step by step...)(aka- c#, java, c++)
+
+- Functional programming is NOT so step by step. It will feel like black magic...
 - .forEach, .filter, .map, .reduce
 
 2. Mutability and immutability:

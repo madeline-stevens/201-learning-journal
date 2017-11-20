@@ -7,5 +7,5 @@ BREAKING DOWN URLs:
   - 1. https-- is the protocol, dictates the type of connection or communication (ssl, ftp, sftp, http(server port:80), https(serverport:8080))
   - 2. blog-- is the sub domain
   - 3. mysite-- is the domain ...
-  - 4. io-- is the tld (why is it popular: io- input/output)
+  - 4. io-- is the tld(top level domain)(why is it popular: io- input/output)
   - 5. articles-- is the path: ID, or the route.
