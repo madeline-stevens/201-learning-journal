@@ -390,6 +390,6 @@ middleware:
   lab:
   review proxy code, proxyGithub, this is another form of middleware
   look up DISTINCT
-  arricleView-
+  articleView-
   regEx-
   Article.js- function definitions, go find where they're called. (findWhere and allCategories )
