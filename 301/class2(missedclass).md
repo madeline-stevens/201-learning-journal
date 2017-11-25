@@ -104,7 +104,7 @@ function Article (rawData) {
   this.title = rawDataObj.title
 }
 
-.toHtml method... // is a prototype method on the article. does it belong to the article constrcutor? ....no it belongs to each instance. we create an instance and it will have access to this method. get an object out of the raw data array, pipe it through the article constructor, call the toHtml method on that instance, that instance will grab a clone of our template, skim through and update (with this.), once we're done updating a validating, we're going to return that instance of that clone (return $newArticle).
+.toHtml method... // is a prototype method on the article. does it belong to the article constructor? ....no it belongs to each instance. we create an instance and it will have access to this method. get an object out of the raw data array, pipe it through the article constructor, call the toHtml method on that instance, that instance will grab a clone of our template, skim through and update (with this.), once we're done updating a validating, we're going to return that instance of that clone (return $newArticle).
 it's common to put a $ in front of a jquery object thats being stored in a variable.
 Article.prototype.toHtml = function () {
   var $newArticle = $('article.template').clone();
