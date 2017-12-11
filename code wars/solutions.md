@@ -10,6 +10,15 @@ var replaceDots = function (str) {
 replaceDots("hello.friends.hello")
 ```
 
+1. Insert dashes
+https://www.codewars.com/kata/insert-dashes/train/javascript
+
+```js
+function insertDash(num) {
+  return (num + '').replace(/([13579])(?=[13579])/g, '$1-')
+}
+```
+
 
 2. 11/30- My head is at the wrong end 
 // https://www.codewars.com/kata/my-head-is-at-the-wrong-end
@@ -39,3 +48,5 @@ function abbrevName(name) {
 4. 12/7- handlebars lab day
  Username validation
 // https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
+
+
