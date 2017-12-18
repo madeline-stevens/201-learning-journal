@@ -68,3 +68,18 @@ function isNice(arr){
 return arr.every(test);
 }
 ```
+
+6. 12/6
+Validate a pin
+https://www.codewars.com/kata/regex-validate-pin-code/train/javascript
+
+```js
+'use strict';
+
+function validatePIN (pin) {
+  var codeFour = /^[\d]{4}$/g.test(pin);
+  var codeSix = /^[\d]{6}$/g.test(pin);
+  if (codeFour || codeSix) {return true;}
+  else {return false;}
+}
+```
