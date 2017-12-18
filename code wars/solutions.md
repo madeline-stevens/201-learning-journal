@@ -50,3 +50,21 @@ function abbrevName(name) {
 // https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
 
 
+5. 12/16- 
+Nice array
+https://www.codewars.com/kata/nice-array/train/javascript
+
+```js
+function isNice(arr){
+  return `Ì am Nice `
+}
+```
+```js
+'use strict'
+function test(el, index, arr){
+  return (arr.includes(el+1) || arr.includes(el-1));
+}
+function isNice(arr){
+return arr.every(test);
+}
+```
