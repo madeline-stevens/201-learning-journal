@@ -1,6 +1,6 @@
 301 night class code wars solutions:
 
-1. 11/28ish- Replace all dots
+a. 11/28ish- Replace all dots
 
 ```js
 var replaceDots = function (str) {
@@ -10,7 +10,7 @@ var replaceDots = function (str) {
 replaceDots("hello.friends.hello")
 ```
 
-1. Insert dashes
+b. Insert dashes
 https://www.codewars.com/kata/insert-dashes/train/javascript
 
 ```js
