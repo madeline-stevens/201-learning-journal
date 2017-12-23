@@ -93,3 +93,28 @@ function disemvowel(str) {
   return str.replace(/[aeiou]/gi, '');
 }
 ```
+
+8. 12/22/17
+words into sentences
+https://www.codewars.com/kata/format-words-into-a-sentence
+
+```js
+function formatWords(words) {
+  if (!words) return ''
+  words = words.filter(a => a != '')
+  return (
+    words.slice(0, -2).join(', ') +
+    (words.length > 2 ? ', ' : '') +
+    words.slice(-2).join(' and ')
+  )
+}
+```
+
+TESTS!!!!!
+```js
+describe("Solution", function(){
+  it("should test for something", function(){
+    Test.assertEquals(formatWords(['apples', 'oranges', 'plums']), "apples, oranges and plums");
+  });
+});
+```
