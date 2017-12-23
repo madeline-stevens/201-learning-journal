@@ -83,3 +83,13 @@ function validatePIN (pin) {
   else {return false;}
 }
 ```
+
+7. 12/22/17
+Disemvowel Trolls
+https://www.codewars.com/kata/disemvowel-trolls/train/javascript
+
+```js
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+```
