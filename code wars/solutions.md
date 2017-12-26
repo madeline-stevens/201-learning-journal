@@ -98,8 +98,7 @@ function disemvowel(str) {
 words into sentences
 https://www.codewars.com/kata/format-words-into-a-sentence
 
-provide:
-tests:
+provided tests:
 ```js
 describe("Solution", function(){
   it("should test for something", function(){
