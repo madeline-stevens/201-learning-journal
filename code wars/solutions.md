@@ -127,3 +127,18 @@ describe("Solution", function(){
   });
 });
 ```
+
+Another example for Format words into a sentence (To go along with lab 8)
+https://www.codewars.com/kata/format-words-into-a-sentence
+
+```js
+function formatWords(words) {
+  if (!words) return ''
+  words = words.filter(a => a != '')
+  return (
+    words.slice(0, -2).join(', ') +
+    (words.length > 2 ? ', ' : '') +
+    words.slice(-2).join(' and ')
+  )
+}
+```
