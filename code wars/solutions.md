@@ -142,3 +142,24 @@ function formatWords(words) {
   )
 }
 ```
+
+9. 12/30/17
+Lab 9
+Reverse a string 
+https://www.codewars.com/kata/reversed-strings
+
+```js
+function solution(str){
+  var splitString = str.split("");
+  
+  var reverseArray = splitString.reverse();
+  
+  var joinArray = reverseArray.join("");
+  
+  return joinArray;
+}
+```
+TDD:
+```js
+Test.expect(solution('world') == 'dlrow')
+```
