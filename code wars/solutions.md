@@ -1,6 +1,7 @@
 301 night class code wars solutions:
 
-1a. 11/28ish- Replace all dots
+1a. 11/28ish
+Replace all dots
 
 ```js
 var replaceDots = function (str) {
@@ -69,7 +70,7 @@ return arr.every(test);
 }
 ```
 
-6. 12/6
+6. 12/6/17
 Validate a pin
 https://www.codewars.com/kata/regex-validate-pin-code/train/javascript
 
