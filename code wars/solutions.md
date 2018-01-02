@@ -21,7 +21,8 @@ function insertDash(num) {
 ```
 
 
-2. 11/30- My head is at the wrong end 
+2. 11/30
+My head is at the wrong end 
 // https://www.codewars.com/kata/my-head-is-at-the-wrong-end
 
 ```js
