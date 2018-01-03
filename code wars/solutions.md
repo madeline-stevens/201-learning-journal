@@ -165,3 +165,13 @@ TDD:
 ```js
 Test.expect(solution('world') == 'dlrow')
 ```
+
+10. 1/2/18
+// Solutions for .map() challenge: Use map to double the values in an array
+// https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
+
+// Solutions for .filter() challenge: Filter out the geese
+// https://www.codewars.com/kata/filter-out-the-geese
+
+// Solutions for .reduce() challenge: Calculate average
+// https://www.codewars.com/kata/calculate-average
