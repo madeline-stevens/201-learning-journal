@@ -170,8 +170,38 @@ Test.expect(solution('world') == 'dlrow')
 // Solutions for .map() challenge: Use map to double the values in an array
 // https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
 
+```js
+function double(array) {
+    const newArray = array.map(x => x * 2);
+    return newArray;
+}
+
+double([1,3,4,5,6])
+```
+
+
+
 // Solutions for .filter() challenge: Filter out the geese
 // https://www.codewars.com/kata/filter-out-the-geese
 
+```js
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  
+  return birds.filter(bird => !geese.includes (bird));
+};
+```
+
+
+
 // Solutions for .reduce() challenge: Calculate average
 // https://www.codewars.com/kata/calculate-average
+
+```js
+function find_average(array) {
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+return (array.reduce(reducer)/array.length);
+  
+}
+```
