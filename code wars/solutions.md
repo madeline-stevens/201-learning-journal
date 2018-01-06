@@ -180,7 +180,7 @@ double([1,3,4,5,6])
 ```
 
 
-
+//WRONG FILTER KATA- THIS WAS IN THE GUIDE BUT NOT IN THE STUDENT LAB
 // Solutions for .filter() challenge: Filter out the geese
 // https://www.codewars.com/kata/filter-out-the-geese
 
@@ -190,6 +190,11 @@ function gooseFilter (birds) {
   
   return birds.filter(bird => !geese.includes (bird));
 };
+```
+
+https://www.codewars.com/kata/list-filtering/train/javascript
+```js
+  return l.filter(elem => typeof(elem) === 'number');
 ```
 
 
