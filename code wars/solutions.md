@@ -210,3 +210,6 @@ function gooseFilter (birds) {
 };
 ```
 ////////////////////////////////////////////////
+
+11. 1/6/18
+// https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
