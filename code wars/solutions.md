@@ -167,7 +167,7 @@ Test.expect(solution('world') == 'dlrow')
 ```
 
 10. 1/2/18
-// Solutions for .map() challenge: Use map to double the values in an array
+// #1. Solutions for .map() challenge: Use map to double the values in an array
 // https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
 
 ```js
@@ -179,7 +179,25 @@ function double(array) {
 double([1,3,4,5,6])
 ```
 
+// #2 https://www.codewars.com/kata/list-filtering/train/javascript
+```js
+  return l.filter(elem => typeof(elem) === 'number');
+```
 
+
+// #3. Solutions for .reduce() challenge: Calculate average
+// https://www.codewars.com/kata/calculate-average
+
+```js
+function find_average(array) {
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+return (array.reduce(reducer)/array.length);
+  
+}
+```
+
+///////////////////////////////////////////////////
 //WRONG FILTER KATA- THIS WAS IN THE GUIDE BUT NOT IN THE STUDENT LAB
 // Solutions for .filter() challenge: Filter out the geese
 // https://www.codewars.com/kata/filter-out-the-geese
@@ -191,22 +209,4 @@ function gooseFilter (birds) {
   return birds.filter(bird => !geese.includes (bird));
 };
 ```
-
-https://www.codewars.com/kata/list-filtering/train/javascript
-```js
-  return l.filter(elem => typeof(elem) === 'number');
-```
-
-
-
-// Solutions for .reduce() challenge: Calculate average
-// https://www.codewars.com/kata/calculate-average
-
-```js
-function find_average(array) {
-  const reducer = (accumulator, currentValue) => accumulator + currentValue;
-
-return (array.reduce(reducer)/array.length);
-  
-}
-```
+////////////////////////////////////////////////
