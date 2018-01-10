@@ -13,4 +13,4 @@ resubmits
 
 
 for lab 11
-- step 3 is optional!!! 
+- step 3, 5, 6 is optional!!! 

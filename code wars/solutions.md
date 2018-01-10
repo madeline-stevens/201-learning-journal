@@ -166,7 +166,7 @@ TDD:
 Test.expect(solution('world') == 'dlrow')
 ```
 
-10. 1/2/18
+10. 1/2/18 FUNCTIONAL PROGRAMMING 
 // #1. Solutions for .map() challenge: Use map to double the values in an array
 // https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
 
@@ -213,3 +213,20 @@ function gooseFilter (birds) {
 
 11. 1/6/18
 // https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
+
+```js
+function cubeOdd(arr) {
+    if(arr === []){
+    return undefined
+    }
+    var filtered = arr.filter(item => parseInt(item) == item);
+    if(filtered.length != arr.length){
+    return undefined
+    }
+    var cube =  arr.map(x => Math.pow(x, 3)) 
+    var odd = cube.filter(n => n%2)
+    return odd.reduce((acc,cur) => acc + cur)
+    
+    }
+  ```
+
