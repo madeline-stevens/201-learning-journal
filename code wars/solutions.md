@@ -230,3 +230,29 @@ function cubeOdd(arr) {
     }
   ```
 
+12. 
+1/10/18
+// Highest scoring word
+// https://www.codewars.com/kata/highest-scoring-word
+
+```js
+function high(x) {
+  let max = 0
+  let res = ''
+
+  x.split(' ').map(word => {
+    let value = 0
+
+    word.split('').map(letter => {
+      let count = 0
+      value += letter.charCodeAt(count) - 96
+      count++
+    })
+    if (value > max) {
+      max = value
+      res = word
+    }
+  })
+  return res
+}
+```
