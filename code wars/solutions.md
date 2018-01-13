@@ -145,7 +145,8 @@ function formatWords(words) {
 }
 ```
 
-9. 12/30/17
+9. 
+12/30/17
 Lab 9
 Reverse a string 
 https://www.codewars.com/kata/reversed-strings
@@ -166,7 +167,8 @@ TDD:
 Test.expect(solution('world') == 'dlrow')
 ```
 
-10. 1/2/18 FUNCTIONAL PROGRAMMING 
+10. 
+1/2/18 FUNCTIONAL PROGRAMMING 
 // #1. Solutions for .map() challenge: Use map to double the values in an array
 // https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
 
@@ -211,7 +213,8 @@ function gooseFilter (birds) {
 ```
 ////////////////////////////////////////////////
 
-11. 1/6/18
+11. 
+1/6/18
 // https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
 
 ```js
