@@ -259,3 +259,8 @@ function high(x) {
   return res
 }
 ```
+
+13.
+1/12/18
+//mutate string
+https://www.codewars.com/kata/mutate-my-strings
