@@ -181,7 +181,8 @@ function double(array) {
 double([1,3,4,5,6])
 ```
 
-// #2 https://www.codewars.com/kata/list-filtering/train/javascript
+// #2 .filter 
+// https://www.codewars.com/kata/list-filtering/train/javascript
 ```js
   return l.filter(elem => typeof(elem) === 'number');
 ```
