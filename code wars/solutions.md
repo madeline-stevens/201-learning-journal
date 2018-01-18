@@ -189,7 +189,7 @@ double([1,3,4,5,6])
 
 
 // #3. Solutions for .reduce() challenge: Calculate average
-// https://www.codewars.com/kata/calculate-average
+https://www.codewars.com/kata/calculate-average
 
 ```js
 function find_average(array) {
@@ -237,7 +237,7 @@ function cubeOdd(arr) {
 12. 
 1/10/18
 // Highest scoring word
-// https://www.codewars.com/kata/highest-scoring-word
+https://www.codewars.com/kata/highest-scoring-word
 
 ```js
 function high(x) {
@@ -282,4 +282,3 @@ function mutateMyStrings(stringOne, stringTwo){
     return answerString.join('\n') + '\n';
   }
   ```
-  
