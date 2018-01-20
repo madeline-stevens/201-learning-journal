@@ -264,7 +264,7 @@ function high(x) {
 
 13.
 1/12/18
-//mutate string
+mutate string
 https://www.codewars.com/kata/mutate-my-strings
 
 ```js
