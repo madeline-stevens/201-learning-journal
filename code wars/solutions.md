@@ -170,7 +170,7 @@ Test.expect(solution('world') == 'dlrow')
 10. 
 1/2/18 FUNCTIONAL PROGRAMMING 
 // #1. Solutions for .map() challenge: Use map to double the values in an array
-// https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
+https://www.codewars.com/kata/use-map-to-double-the-values-in-an-array
 
 ```js
 function double(array) {
