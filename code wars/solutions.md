@@ -34,7 +34,7 @@ function fixTheMeerkat(arr) {
 
 3. 12/4- Mobile first lab day
 Abbreviate a two-word name
-// https://www.codewars.com/kata/abbreviate-a-two-word-name
+https://www.codewars.com/kata/abbreviate-a-two-word-name
 
 ```js
 function abbrevName(name){
