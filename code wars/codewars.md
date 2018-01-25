@@ -216,7 +216,7 @@ function gooseFilter (birds) {
 
 11. 
 1/6/18
-// https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
+https://www.codewars.com/kata/sum-of-odd-cubed-numbers/train/javascript
 
 ```js
 function cubeOdd(arr) {
@@ -236,7 +236,7 @@ function cubeOdd(arr) {
 
 12. 
 1/10/18
-// Highest scoring word
+Highest scoring word
 https://www.codewars.com/kata/highest-scoring-word
 
 ```js
