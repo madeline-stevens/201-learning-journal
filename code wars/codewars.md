@@ -48,7 +48,7 @@ function abbrevName(name) {
 ```
 
 4. 12/7- handlebars lab day
- Username validation
+Username validation
 // https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
 
 
