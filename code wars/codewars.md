@@ -200,7 +200,7 @@ return (array.reduce(reducer)/array.length);
 }
 ```
 
-///////////////////////////////////////////////
+/////////////////////////////////////////////
 //WRONG FILTER KATA- THIS WAS IN THE GUIDE BUT NOT IN THE STUDENT LAB
 // Solutions for .filter() challenge: Filter out the geese
 https://www.codewars.com/kata/filter-out-the-geese
