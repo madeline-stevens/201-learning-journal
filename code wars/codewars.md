@@ -189,7 +189,7 @@ https://www.codewars.com/kata/list-filtering/train/javascript
 ```
 
 
-// #3. Solutions for .reduce() challenge: Calculate average
+ #3. Solutions for .reduce() challenge: Calculate average
 https://www.codewars.com/kata/calculate-average
 
 ```js
