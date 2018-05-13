@@ -2,39 +2,38 @@
 
 var answersCorrect = 0;
 var yesNoArray = [
-    ['Question #1: Pugs originated in China. True or false?,' ['True','False'] , 'Correct!', 'Incorrect!'],
-    ['Question #2: A group of crows is called a "murder", a group of pugs is called a "herd." True or false?', ['True', 'False'] , 'Correct!', 'Incorrect!'],
-]
+    ['Question #1: Pugs originated in China. True or false?', ['true', 't'] , 'Correct!', 'Incorrect!'],
+    ['Question #2: A group of crows is called a "murder", a group of pugs is called a "herd." True or false?', ['false', 'f'] , 'Correct!', 'Incorrect!'],
+];
 
 //functionality for the above true/false questions 
 function yesNoGame(question, answer, correctAlert, incorrectAlert) {
     var userAnswer = prompt(question).toLowerCase();
     
-    if(answer.includes(userAnswer)) { //answer.includes is what is running throught he array checking variable userAnswer, the variable passed into the parens, against variable answer. 
-        answerCorrect++;
+    if(answer.includes(userAnswer)) { //answer.includes is what is running throught the array checking variable userAnswer, the variable passed into the parens, against variable answer. 
+        answersCorrect++;
         alert('Correct!');
     }
-        else {
+    else {
             alert('Incorrect!');
         }
     }
 
-
-    for (var i = 0; i < yesNoArray.length; i++) {
-        yesNoGame(yesNoGame[i][0], yesNoArray[i][1], yesNoArray[i][3]) ;
+for (var i = 0; i < yesNoArray.length; i++) {
+        yesNoGame(yesNoArray[i][0], yesNoArray[i][1], yesNoArray[i][2], yesNoArray[i][3]);
         //This For Loop is looping through the array of arrays questions/options/feedback hitting each of the three items in the nested arrays. 
         //That first parameter, yesNoArray[i][0] ---> is the  question in the array
         //The second parameter, yesNoArray[i][1]---> is the ['True', 'False']
         //The third parameter, yesNoArray[i][2]---> is the 'Correct1', 'Incorrect!' 
-    }
+}
 
 
 //functionality for the below numeric input questions
 //Question #3
-var correctAnswer = 3;
+var correctAnswer = 4;
 var attempts = 4;
 
-function question3 () {
+function question3() {
     while (attempts > 0) {
         var answer = parseInt(prompt ('Question #3: You have four attempts to guess how many different types of pugs there are.'))
         //by default, a prompt method will turn a numeric answer to a true string, parseInt will convert that string to a true number data type. 
@@ -47,11 +46,15 @@ function question3 () {
         attempts--;
     }
     else if (answer === correctAnswer) {
-        alert ('Correct! There are 3 types of pugs.')
+        alert ('Correct! There are 3 types of pugs.');
         attemps = 0; //this is what sets the while loop to 0, thus making it false, and exiting the loop, and moving on to next question. 
     }
+    // else {
+    //     alert('Incorrect! Number too low! Keep trying!'); //is this needed??
+    //     attempts--;
+    // }
 }
-question3 ();
+question3();
 
 //Question #4- my second numeric input question
 var yearsAlive = ['5-8', '8-10', '13-15'];
