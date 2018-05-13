@@ -37,7 +37,7 @@ function question3() {
     while (attempts > 0) {
         var answer = parseInt(prompt ('Question #3: You have four attempts to guess how many different types of pugs there are.'))
         //by default, a prompt method will turn a numeric answer to a true string, parseInt will convert that string to a true number data type. 
-    }
+    
     if (answer < correctAnswer) {
         alert ('Incorrect! Number too low! Keep trying!');
     }
@@ -46,26 +46,36 @@ function question3() {
         attempts--;
     }
     else if (answer === correctAnswer) {
-        alert ('Correct! There are 3 types of pugs.');
+        alert ('Correct! There are 4 types of pugs.');
         attemps = 0; //this is what sets the while loop to 0, thus making it false, and exiting the loop, and moving on to next question. 
     }
-    // else {
-    //     alert('Incorrect! Number too low! Keep trying!'); //is this needed??
-    //     attempts--;
-    // }
+    else {
+        return false; //this allows user to hit cancel and move on to next question
+        attempts--; //don't need?
+        }
+    }
 }
 question3();
 
+
+//issues:
+//cancel does not escape you
+//if you type a non number in #3 it just takes you to the next Q
+//#3 is saying every answer is correct
+
+
+
 //Question #4- my second numeric input question
-var yearsAlive = ['5-8', '8-10', '13-15'];
-var guessesLeft = 6 
+var names = ['biggie', 'pippin', 'pugsley'];
+var guessesLeft = 4;
 
 function question4() {
     while(guessesLeft > 0) {
-        var answer = prompt ('Question #4: You have six attempts to try to correctly guess how many years pugs live.');
+        var answer = prompt ('Question #4: You have 4 attempts to try to correctly guess the name of my future pug.');
         
-        for (var i = 0; i < yearsAlive.length; i++) {
-            if(answer === yearsAlive[i]) {
+        
+        for (var i = 0; i < names.length; i++) {
+            if(answer === names[i]) {
             alert ('Correct! The quiz is over! Congrats!');
             guessesLeft = 0; //or setting to -1
             break; //get out of the for loop, or setting guessesLeft = -1, because this will also make the prompt false. 
