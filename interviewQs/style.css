@@ -1,0 +1,33 @@
+.col {
+  /* float: left; */
+  margin: 2%;
+  border: blue;
+  width: 46%;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}
+
+/*float left test*/
+#floatLeft {
+  display: block;
+  float: left;
+  background-color: green;
+}
+
+/* media queries */
+/* max-width 600px= up until this point do the following */
+
+@media screen and (max-width: 600px) {
+  .col {
+    float: none;
+    margin: 0;
+    width: 100%;
+    background-color: pink;
+  }
+}

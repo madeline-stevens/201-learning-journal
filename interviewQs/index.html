@@ -5,18 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Document</title>
 </head>
 
 <body>
 
-    1. class vs id 2. box model (margin, border, padding, content) 3. block model- you float left (a box) what happens to the
-    stuff around it? It wraps around it 4. double equals and triple equals 5. what is the diff between a get and post request
-    6. what is user interaction? - buttons, hovers, etc. 7. when you render an interactive component like a button, and you
-    want the button when clicked to display an alert box saying hello world what would that line of code look like? 8. What
-    are media queries 9. explain join? 10. in node.js if you have a variable outside of a functions scope that var will attach
-    to the window object. true or false- TRUE 11. What is the difference between a SQL database and a nonSQL database? a
-    sql database is a relational database. 12. What are the benefits of react 13. explain what jsx is
+    <div id="container">
+        <div class="row">
+            <div class="col one">
+                <p>1. class vs id</p>
+                <p>2. box model (margin, border, padding, content)</p>
+                <p>3. block model- you float left (a box) what happens to the stuff around it?</p>
+                <p>4. double equals and triple equals</p>
+                <p>5. what is the diff between a get and post request</p>
+                <p>6. what is user interaction? - buttons, hovers, etc.</p>
+            </div>
+            <div class="col two">
+                <p> 7. when you render an interactive component like a button, and you want the button when clicked to display
+                    an alert box saying hello world what would that line of code look like? 8. What are media queries 9.
+                    explain join? 10. in node.js if you have a variable outside of a functions scope that var will attach
+                    to the window object. true or false- TRUE 11. What is the difference between a SQL database and a nonSQL
+                    database? a sql database is a relational database. 12. What are the benefits of react 13. explain what
+                    jsx is</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="floatLeft">
+        <p>Float Left- to see everything else wrap around</p>
+
+    </div>
+
+    <input type="button" name="testbutton" id="theTestButton" value="Test" onClick="alert('Hello! How are you?');">
 
 </body>
 
