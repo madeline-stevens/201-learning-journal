@@ -1,6 +1,16 @@
+/* * {
+  border: 1px solid black;
+} */
+
+#container {
+  float: left;
+  margin: 1%;
+}
+
 .col {
-  /* float: left; */
+  float: left;
   margin: 2%;
+  margin-bottom: 0;
   border: blue;
   width: 46%;
 }
@@ -15,9 +25,15 @@
 
 /*float left test*/
 #floatLeft {
-  display: block;
   float: left;
   background-color: green;
+  width: 46%;
+  margin: 2%;
+}
+
+#theTestButton {
+  float: left;
+  position: absolute;
 }
 
 /* media queries */
